@@ -1,0 +1,46 @@
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie-card {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-card img {
+  width: 180px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.movie-card h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+/* Remove the animation property */
+.movies-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  /* animation: scrollMovies 30s linear infinite; */
+  padding: 10px; /* Optional: Add padding for spacing */
+  width: 100%; /* Set a fixed width for the container */
+}
+
+.movies-scroll-container:hover {
+  color: #000;
+}
